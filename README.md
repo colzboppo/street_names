@@ -1,5 +1,11 @@
 # Home owner names - technical test
 
+## Installation:
+Run `git clone git@github.com:colzboppo/street_names.git` to clone repo.
+Run `cd street_names` to correct directory
+Run `composer install` to install dependancies
+Run `php artisan test` to run tests, nb. sqlite database already has migrations.
+
 ## Brief:
 You have been provided with a CSV from an estate agent containing an export of their
 homeowner data. If there are multiple homeowners, the estate agent has been entering both
