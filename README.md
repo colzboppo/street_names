@@ -2,8 +2,11 @@
 
 ## Installation:
 Run `git clone git@github.com:colzboppo/street_names.git` to clone repo.
+
 Run `cd street_names` to correct directory
+
 Run `composer install` to install dependancies
+
 Run `php artisan test` to run tests, nb. sqlite database already has migrations.
 
 ## Brief:
