@@ -23,7 +23,7 @@ The most crucial part of the assessment seems to be the proper parsing of the da
 ## Implementation:
 Quickly found TheIconic\NameParser to fall short of requirements for our name parsing. In particular splitting names such as "Mr & Mrs Butler" was problematic and inserted initials and inappropriate first names into the data. I had a cursory second look for packages that could accomplish this to no avail, and settled on writing some custom code to handle this behaviour on top of the library, this should be re-visited later, as the code written is un-elegant and will likely break with certain formatting beyond the unit tests written.
 
-It gets the job done though, for now, in the appropriate time given 🔥
+See `App\Services\NameParser` for details. It gets the job done, for now, in the appropriate time given 🔥
 
 Initially testing in tinker to get the class running properly, switching to PHPunit tests to dial in the expected behaviour. 
 You can run `php artisan test` to see the results.
