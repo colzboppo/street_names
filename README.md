@@ -24,4 +24,4 @@ You can run `php artisan test` to see the results.
 
 ## Considerations:
 Aside from a front-end interface and supporting back-end parts, ie. routes, controllers, vue components, etc. it would perhaps be useful to consider some kind of review process for data-crunching where an end-user is prompted with an editable list of parsed names so they can final-review the data and adjust manually, no programming is perfect afterall, possible potential AI integration even.
-A second data model/layer of processing batches would also be useful to allow batches of names to be processed, reviewed, and submitted finally into the database, rather than be inserted straight into the database, this could be useful to allow imports to be rolled-back or re-processed differently later.
+A second data model/layer of processing batches would also be useful to allow batches of names to be processed, reviewed, and submitted finally into the database, rather than be inserted directly, this could be useful to allow imports to be rolled-back or re-processed differently later.
